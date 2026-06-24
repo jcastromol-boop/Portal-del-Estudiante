@@ -4,7 +4,7 @@
 Este repositorio contiene la documentación y maquetación del **Sistema de Gestión Integral** diseñado para el Centro Nacional de Educación Hellen Keller (CNEHK). El objetivo del proyecto es centralizar y optimizar los procesos académicos y administrativos de la institución, mejorando la atención a estudiantes con discapacidad visual y sordoceguera.
 
 ## Integrantes y Roles
-*   **[Juan Ignacio Castro Molina]**: Responsable de la sección "Ejemplo de uso del sistema".
+*   **["Juan Ignacio Castro Molina"]**: Responsable de la sección "Ejemplo de uso del sistema".
 
 ## Descripción del Proyecto
 El sistema es una solución web interactiva que permite la gestión de terapias, planes educativos individualizados (PEI) y el seguimiento del progreso de los estudiantes. Facilita la comunicación entre administradores, terapeutas y encargados legales. Se enfoca en la accesibilidad y la usabilidad para apoyar la educación especial.
