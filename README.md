@@ -74,5 +74,4 @@ Si deseas contribuir a este proyecto, por favor, consulta nuestro archivo [CONTR
 ## Licencia
 Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
----
-*Proyecto desarrollado para el curso SOFT-06: Diseño y programación web, Universidad CENFOTEC.*
+
