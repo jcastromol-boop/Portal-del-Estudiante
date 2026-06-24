@@ -1,0 +1,54 @@
+# Guía para Contribuir
+
+¡Gracias por tu interés en contribuir a este proyecto!
+
+Para asegurar un proceso de colaboración fluido y efectivo, por favor, sigue estas directrices:
+
+## Cómo Contribuir
+
+1.  **Fork el Repositorio:** Haz un fork de este repositorio a tu cuenta de GitHub.
+2.  **Clona tu Fork:** Clona el repositorio forkeado a tu máquina local.
+    ```bash
+    git clone https://github.com/tu-usuario/Sistema-Gestion-Integral.git
+    ```
+3.  **Crea una Nueva Rama:** Crea una rama para tu nueva característica o corrección de error.
+    ```bash
+    git checkout -b feature/nombre-de-tu-caracteristica
+    ```
+    o
+    ```bash
+    git checkout -b bugfix/descripcion-del-bug
+    ```
+4.  **Realiza tus Cambios:** Implementa tus cambios, asegurándote de seguir las convenciones de código existentes.
+5.  **Prueba tus Cambios:** Asegúrate de que tus cambios no introduzcan nuevos errores y que todas las funcionalidades existentes sigan funcionando correctamente.
+6.  **Commit tus Cambios:** Escribe mensajes de commit claros y descriptivos.
+    ```bash
+    git commit -m "feat: Añadir nueva característica X" 
+    ```
+    o
+    ```bash
+    git commit -m "fix: Corregir error Y en el módulo Z"
+    ```
+7.  **Push a tu Fork:** Sube tus cambios a tu repositorio forkeado.
+    ```bash
+    git push origin feature/nombre-de-tu-caracteristica
+    ```
+8.  **Abre un Pull Request (PR):** Abre un Pull Request desde tu rama a la rama `main` de este repositorio. Describe detalladamente los cambios realizados y por qué son necesarios.
+
+## Estilo de Código
+
+*   Utiliza nombres de variables y funciones descriptivos.
+*   Comenta tu código cuando sea necesario para explicar lógica compleja.
+*   Formatea tu código de manera consistente.
+
+## Reporte de Errores
+
+Si encuentras un error, por favor, abre un *issue* en el repositorio y proporciona la siguiente información:
+
+*   Una descripción clara y concisa del error.
+*   Pasos para reproducir el error.
+*   El comportamiento esperado.
+*   El comportamiento actual.
+*   Capturas de pantalla (si aplica).
+
+¡Agradecemos tu colaboración para mejorar este proyecto!
