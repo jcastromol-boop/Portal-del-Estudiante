@@ -62,16 +62,5 @@ Para configurar el entorno de desarrollo local, sigue estos pasos:
     npm start
     ```
 
-## Uso
-Una vez que el sistema esté en funcionamiento, podrás acceder a la interfaz de usuario a través de tu navegador web en `http://localhost:3000` (o el puerto configurado para el frontend).
-
-## Documentación
-Puedes encontrar la documentación detallada de la sección de ejemplo de uso del sistema en el archivo [docs/ejemplo_uso_sistema.md](docs/ejemplo_uso_sistema.md).
-
-## Contribución
-Si deseas contribuir a este proyecto, por favor, consulta nuestro archivo [CONTRIBUTING.md](CONTRIBUTING.md) para conocer las directrices.
-
-## Licencia
-Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
 
