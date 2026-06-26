@@ -1,54 +1,33 @@
-# Guía para Contribuir
+INTEGRANTE JUAN IGNACIO CASTRO MOLINA
+I. ROL DESEMPEÑADO
+Diseñador de Interfaz y Flujo de Navegación (UI/UX): Responsable de la conceptualización,
+maquetación y diagramación del flujo interactivo entre el personal especialista y los usuarios de
+consulta.
+II. COMPONENTES Y FUNCIONALIDADES
+DESARROLLADAS (MAQUETACIÓN)
+De acuerdo con los requerimientos específicos del Centro Hellen Keller, se estructuraron y
+diseñaron los esquemas para dos tipos de usuario:
+1. Módulo de Registro de Progreso (Vista Docente/Terapeuta)
+● Funcionalidad: Formulario estructurado para la recopilación de datos y seguimiento de
+los Planes Educativos Individualizados (PEI).
+● Componentes de UI: Selector dinámico (Dropdown) para alternar la ficha del estudiante,
+bloques independientes por áreas de terapia (Comunicación, Motricidad Fina,
+Habilidades Sociales), matriz de verificación (Checklist) para marcar actividades
+completadas en la sesión diaria y campo lineal para la bitácora de observaciones del
+especialista.
+● Control de acción: Botón de guardado para la persistencia del informe diario de la
+terapia.
+2. Portal de Consulta de PEI y Avances (Vista Estudiante/Encargado
+Legal)
+● Funcionalidad: Interfaz síncrona de solo lectura para la visualización detallada del
+progreso diario del alumno.
+● Componentes de UI: Indicadores visuales fijos que reflejan las tareas ejecutadas
+(sustituyendo las casillas de edición), contenedor para la lectura de comentarios provistos
+por el terapeuta y menú de navegación lateral adaptado para el perfil de consulta.
+III. ESTRUCTURA DE NAVEGACIÓN E INTERACCIÓN
 
-¡Gracias por tu interés en contribuir a este proyecto!
-
-Para asegurar un proceso de colaboración fluido y efectivo, por favor, sigue estas directrices:
-
-## Cómo Contribuir
-
-1.  **Fork el Repositorio:** Haz un fork de este repositorio a tu cuenta de GitHub.
-2.  **Clona tu Fork:** Clona el repositorio forkeado a tu máquina local.
-    ```bash
-    git clone https://github.com/tu-usuario/Sistema-Gestion-Integral.git
-    ```
-3.  **Crea una Nueva Rama:** Crea una rama para tu nueva característica o corrección de error.
-    ```bash
-    git checkout -b feature/nombre-de-tu-caracteristica
-    ```
-    o
-    ```bash
-    git checkout -b bugfix/descripcion-del-bug
-    ```
-4.  **Realiza tus Cambios:** Implementa tus cambios, asegurándote de seguir las convenciones de código existentes.
-5.  **Prueba tus Cambios:** Asegúrate de que tus cambios no introduzcan nuevos errores y que todas las funcionalidades existentes sigan funcionando correctamente.
-6.  **Commit tus Cambios:** Escribe mensajes de commit claros y descriptivos.
-    ```bash
-    git commit -m "feat: Añadir nueva característica X" 
-    ```
-    o
-    ```bash
-    git commit -m "fix: Corregir error Y en el módulo Z"
-    ```
-7.  **Push a tu Fork:** Sube tus cambios a tu repositorio forkeado.
-    ```bash
-    git push origin feature/nombre-de-tu-caracteristica
-    ```
-8.  **Abre un Pull Request (PR):** Abre un Pull Request desde tu rama a la rama `main` de este repositorio. Describe detalladamente los cambios realizados y por qué son necesarios.
-
-## Estilo de Código
-
-*   Utiliza nombres de variables y funciones descriptivos.
-*   Comenta tu código cuando sea necesario para explicar lógica compleja.
-*   Formatea tu código de manera consistente.
-
-## Reporte de Errores
-
-Si encuentras un error, por favor, abre un *issue* en el repositorio y proporciona la siguiente información:
-
-*   Una descripción clara y concisa del error.
-*   Pasos para reproducir el error.
-*   El comportamiento esperado.
-*   El comportamiento actual.
-*   Capturas de pantalla (si aplica).
-
-¡Agradecemos tu colaboración para mejorar este proyecto!
+(CRITERIO DE RÚBRICA)
+Lógica del Flujo: El entregable incluye la conexión explícita entre ambas pantallas. Define la
+transición de datos donde el estímulo inicial (Input) guardado por el Terapeuta en la interfaz de
+registro impacta y actualiza automáticamente el contenedor de salida (Output) en el portal de
+consulta del estudiante, garantizando la visibilidad inmediata del avance pedagógico.
