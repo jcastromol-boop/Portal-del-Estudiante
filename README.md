@@ -1,66 +1,17 @@
-[README.md](https://github.com/user-attachments/files/29313515/README.md)
-# Sistema de Gestión Integral - Centro Hellen Keller
+### 👤 Integrante: Juan Ignacio Castro Molina
+**Rol en el Proyecto:** Diseñador de Interfaz y Flujo de Navegación (UI/UX)
 
-Este repositorio contiene la documentación y maquetación del **Sistema de Gestión Integral** diseñado para el Centro Nacional de Educación Hellen Keller (CNEHK). El objetivo del proyecto es centralizar y optimizar los procesos académicos y administrativos de la institución, mejorando la atención a estudiantes con discapacidad visual y sordoceguera.
+#### Componentes y Funcionalidades Desarrolladas (Maquetación)
+En cumplimiento con los requerimientos específicos de accesibilidad y gestión del Centro Nacional de Educación Hellen Keller, se conceptualizaron y diseñaron los esquemas estructurales para dos perfiles de usuario:
 
-## Integrantes y Roles
-*   **["Juan Ignacio Castro Molina"]**: Responsable de la sección "Ejemplo de uso del sistema".
+1. **Módulo de Registro de Progreso (Vista Docente / Terapeuta)**
+   * **Funcionalidad:** Formulario estructurado para la recopilación síncrona de datos y seguimiento de los Planes Educativos Individualizados (PEI).
+   * **Componentes de UI:** Control de selección (*Dropdown*) para alternar la ficha activa del estudiante, paneles independientes por áreas de terapia (Comunicación, Motricidad Fina, Habilidades Sociales), matriz de verificación (*Checklist*) para registrar las acciones completadas en la sesión diaria y campo de texto lineal para la bitácora de observaciones del especialista.
+   * **Mecanismo de acción:** Control de comando (Botón de guardado) para ejecutar la persistencia del informe diario del alumno.
 
-## Descripción del Proyecto
-El sistema es una solución web interactiva que permite la gestión de terapias, planes educativos individualizados (PEI) y el seguimiento del progreso de los estudiantes. Facilita la comunicación entre administradores, terapeutas y encargados legales. Se enfoca en la accesibilidad y la usabilidad para apoyar la educación especial.
+2. **Portal de Consulta de PEI y Avances (Vista Estudiante / Encargado Legal)**
+   * **Funcionalidad:** Interfaz síncrona de solo lectura parametrizada bajo criterios de alta visibilidad para la consulta del estado académico y terapéutico.
+   * **Componentes de UI:** Indicadores visuales estáticos (iconografía de verificación que sustituye las casillas de edición), panel de lectura centralizado para las observaciones de la sesión y menú de navegación lateral adaptado para el perfil de consulta.
 
-## Alcance
-*   Gestión de usuarios y roles (Administrador, Terapeuta, Encargado Legal).
-*   Creación y seguimiento de Programas Educativos Individualizados (PEI).
-*   Visualización de reportes de progreso y gráficas de rendimiento simplificadas.
-*   Portal de comunicación para encargados legales.
-
-## Tecnologías Utilizadas (Ficticias)
-Para la implementación de este sistema, se proponen las siguientes tecnologías:
-
-*   **Frontend:** React.js con TypeScript, utilizando Next.js para renderizado del lado del servidor y Tailwind CSS para estilos.
-*   **Backend:** Node.js con Express.js, implementando una API RESTful.
-*   **Base de Datos:** PostgreSQL para la gestión de datos relacionales.
-*   **Autenticación:** JWT (JSON Web Tokens) para la seguridad de las sesiones.
-*   **Despliegue:** Docker para la contenerización y Vercel/AWS para el despliegue.
-
-## Instalación (Ficticia)
-Para configurar el entorno de desarrollo local, sigue estos pasos:
-
-1.  **Clonar el repositorio:**
-    ```bash
-    git clone https://github.com/tu-usuario/Sistema-Gestion-Integral.git
-    cd Sistema-Gestion-Integral
-    ```
-2.  **Instalar dependencias del frontend:**
-    ```bash
-    cd frontend
-    npm install
-    ```
-3.  **Instalar dependencias del backend:**
-    ```bash
-    cd ../backend
-    npm install
-    ```
-4.  **Configurar variables de entorno:**
-    Crea un archivo `.env` en las carpetas `frontend` y `backend` con las configuraciones necesarias (ej. `DATABASE_URL`, `JWT_SECRET`).
-5.  **Iniciar la base de datos (Docker):**
-    ```bash
-    docker-compose up -d postgres
-    ```
-6.  **Ejecutar migraciones de la base de datos:**
-    ```bash
-    npm run migrate
-    ```
-7.  **Iniciar el servidor backend:**
-    ```bash
-    npm start
-    ```
-8.  **Iniciar el servidor frontend:**
-    ```bash
-    cd ../frontend
-    npm start
-    ```
-
-
-
+#### Estructura de Navegación e Interacción (Criterio de Rúbrica)
+* **Lógica del Flujo:** El entregable plantea la conexión explícita entre ambas pantallas, definiendo la transición de datos donde el estímulo inicial (*Input*) guardado por el Terapeuta en la interfaz de registro impacta y actualiza automáticamente el contenedor de salida (*Output*) en el portal de consulta del estudiante, garantizando la visibilidad síncrona del progreso pedagógico.
